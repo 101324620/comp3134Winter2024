@@ -1,0 +1,25 @@
+yorku.ca
+
+IP Address: 130.63.236.137
+IP Location: Toronto - Ontario - York University
+
+ontariotechu.ca
+
+IP Address: 205.211.180.33
+IP Location: Ontario - Oshawa - Durham College Of Applied Arts And Technology
+
+torontomu.ca
+
+IP Address: 141.117.126.202
+IP Location: Ontario - Toronto - Ryerson University
+
+mcmaster.ca
+
+IP Address: 130.113.64.30
+IP Location: Ontario - Hamilton - Mcmaster University
+
+brocku.ca
+
+IP Address: 45.223.96.7
+IP Location: California - Redwood City - Incapsula Inc
+

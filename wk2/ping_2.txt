@@ -1,0 +1,18 @@
+❯ ping 134.122.42.65
+PING 134.122.42.65 (134.122.42.65): 56 data bytes
+64 bytes from 134.122.42.65: icmp_seq=0 ttl=59 time=13.405 ms
+64 bytes from 134.122.42.65: icmp_seq=1 ttl=59 time=11.104 ms
+64 bytes from 134.122.42.65: icmp_seq=2 ttl=59 time=4.660 ms
+64 bytes from 134.122.42.65: icmp_seq=3 ttl=59 time=12.289 ms
+64 bytes from 134.122.42.65: icmp_seq=4 ttl=59 time=11.148 ms
+64 bytes from 134.122.42.65: icmp_seq=5 ttl=59 time=4.166 ms
+64 bytes from 134.122.42.65: icmp_seq=6 ttl=59 time=5.336 ms
+64 bytes from 134.122.42.65: icmp_seq=7 ttl=59 time=10.688 ms
+64 bytes from 134.122.42.65: icmp_seq=8 ttl=59 time=13.935 ms
+64 bytes from 134.122.42.65: icmp_seq=9 ttl=59 time=9.384 ms
+64 bytes from 134.122.42.65: icmp_seq=10 ttl=59 time=7.904 ms
+64 bytes from 134.122.42.65: icmp_seq=11 ttl=59 time=12.715 ms
+^C
+--- 134.122.42.65 ping statistics ---
+12 packets transmitted, 12 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 4.166/9.728/13.935/3.303 ms
