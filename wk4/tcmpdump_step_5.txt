@@ -1,0 +1,76 @@
+root@comp3134Winter2024:~# tcpdump -XX -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+00:05:11.363705 IP comp3134Winter2024.ssh > D.57167: Flags [P.], seq 560290318:560290426, ack 1309172057, win 501, options [nop,nop,TS val 1909429147 ecr 1152077672], length 108
+	0x0000:  fe00 0000 0101 6ec0 4ecf d675 0800 4510  ......n.N..u..E.
+	0x0010:  00a0 331a 4000 4006 8483 867a 2a41 6baf  ..3.@.@....z*Ak.
+	0x0020:  6640 0016 df4f 2165 5a0e 4e08 6159 8018  f@...O!eZ.N.aY..
+	0x0030:  01f5 833d 0000 0101 080a 71cf 939b 44ab  ...=......q...D.
+	0x0040:  4f68 a309 d3f2 0754 1d43 8403 1744 2d51  Oh.....T.C...D-Q
+	0x0050:  ac79 3de7 f2fa 42b7 a10d 32d6 ff8f abb9  .y=...B...2.....
+	0x0060:  7289 3c10 f186 6646 cbd8 40b8 cee3 c3ec  r.<...fF..@.....
+	0x0070:  3ad2 4b6b 7b71 6dd4 85dd 9852 2148 db94  :.Kk{qm....R!H..
+	0x0080:  e292 b18d 1199 cca7 1b00 e828 7b10 9c9f  ...........({...
+	0x0090:  71ed a083 4350 c4a1 f996 b455 9ad3 7449  q...CP.....U..tI
+	0x00a0:  04be 0184 73a7 f0dd 0d8f 4a81 536b       ....s.....J.Sk
+00:05:11.410071 IP D.57167 > comp3134Winter2024.ssh: Flags [.], ack 4294967244, win 2048, options [nop,nop,TS val 1152077727 ecr 1909421636,nop,nop,sack 1 {0:108}], length 0
+	0x0000:  6ec0 4ecf d675 fe00 0000 0101 0800 4500  n.N..u........E.
+	0x0010:  0040 0000 4000 3606 c20d 6baf 6640 867a  .@..@.6...k.f@.z
+	0x0020:  2a41 df4f 0016 4e08 6159 2165 59da b010  *A.O..N.aY!eY...
+	0x0030:  0800 3843 0000 0101 080a 44ab 4f9f 71cf  ..8C......D.O.q.
+	0x0040:  7644 0101 050a 2165 5a0e 2165 5a7a       vD....!eZ.!eZz
+00:05:11.410133 IP comp3134Winter2024.ssh > D.57167: Flags [P.], seq 108:368, ack 1, win 501, options [nop,nop,TS val 1909429194 ecr 1152077727], length 260
+	0x0000:  fe00 0000 0101 6ec0 4ecf d675 0800 4510  ......n.N..u..E.
+	0x0010:  0138 331b 4000 4006 83ea 867a 2a41 6baf  .83.@.@....z*Ak.
+	0x0020:  6640 0016 df4f 2165 5a7a 4e08 6159 8018  f@...O!eZzN.aY..
+	0x0030:  01f5 83d5 0000 0101 080a 71cf 93ca 44ab  ..........q...D.
+	0x0040:  4f9f a857 ab24 e5e8 8eb1 6495 f41b fd0f  O..W.$....d.....
+	0x0050:  0089 3bfc 8619 29fe d3e2 2e03 3594 091e  ..;...).....5...
+	0x0060:  690a 90a5 f9ae 1917 8e41 89a1 f066 7c50  i........A...f|P
+	0x0070:  dce5 beac 416d a276 11a1 cec6 6f36 7039  ....Am.v....o6p9
+	0x0080:  2d69 c108 0383 67c3 b37b c1dc fd98 2222  -i....g..{....""
+	0x0090:  022b 9f3b cad9 5e20 9e42 3bb8 afc8 5e4c  .+.;..^..B;...^L
+	0x00a0:  8814 c9cc adae d248 7ca7 8051 8403 b8ab  .......H|..Q....
+	0x00b0:  9fe4 8cb7 ea3b 7959 b6e6 b914 3c9e 2578  .....;yY....<.%x
+	0x00c0:  f061 e3b0 3f0b 98b9 940f 08b6 92b6 d097  .a..?...........
+	0x00d0:  9d5c 4f2d c57d 54f1 e517 3705 9b3a c8ff  .\O-.}T...7..:..
+	0x00e0:  fc7d 5562 375c bb66 f0e9 7f6e 92e1 aa6a  .}Ub7\.f...n...j
+	0x00f0:  ad36 0706 c1ca 4051 3043 7c54 fa19 66e8  .6....@Q0C|T..f.
+	0x0100:  e64a a5bf 272a bb39 cbba 3b86 5622 50fe  .J..'*.9..;.V"P.
+	0x0110:  b665 cdd2 9b04 c894 3b0c 66dc 8de4 0f42  .e......;.f....B
+	0x0120:  9ab3 124b edb0 6160 c779 d1b1 53ea f702  ...K..a`.y..S...
+	0x0130:  d3e6 7fef cf82 7771 ce55 26ec 6a19 daea  ......wq.U&.j...
+	0x0140:  c568 eb6d 3d92                           .h.m=.
+00:05:11.416800 IP comp3134Winter2024.ssh > D.57167: Flags [P.], seq 4294967244:0, ack 1, win 501, options [nop,nop,TS val 1909429201 ecr 1152077727], length 52
+	0x0000:  fe00 0000 0101 6ec0 4ecf d675 0800 4510  ......n.N..u..E.
+	0x0010:  0068 331c 4000 4006 84b9 867a 2a41 6baf  .h3.@.@....z*Ak.
+	0x0020:  6640 0016 df4f 2165 59da 4e08 6159 8018  f@...O!eY.N.aY..
+	0x0030:  01f5 8305 0000 0101 080a 71cf 93d1 44ab  ..........q...D.
+	0x0040:  4f9f 1e9a c249 0710 41fe 3c39 1b76 f9d3  O....I..A.<9.v..
+	0x0050:  a247 f0f0 1249 f30e cdd1 d514 13fc 430e  .G...I........C.
+	0x0060:  28d3 cd5b e5b0 3bb9 ebd4 169a 507f 0f59  (..[..;.....P..Y
+	0x0070:  01ff 6783 5c2d                           ..g.\-
+00:05:11.444747 IP D.57167 > comp3134Winter2024.ssh: Flags [.], ack 4294967244, win 2048, options [nop,nop,TS val 1152077761 ecr 1909421636,nop,nop,sack 1 {0:368}], length 0
+	0x0000:  6ec0 4ecf d675 fe00 0000 0101 0800 4500  n.N..u........E.
+	0x0010:  0040 0000 4000 3606 c20d 6baf 6640 867a  .@..@.6...k.f@.z
+	0x0020:  2a41 df4f 0016 4e08 6159 2165 59da b010  *A.O..N.aY!eY...
+	0x0030:  0800 371d 0000 0101 080a 44ab 4fc1 71cf  ..7.......D.O.q.
+	0x0040:  7644 0101 050a 2165 5a0e 2165 5b7e       vD....!eZ.!e[~
+00:05:11.450057 IP D.57167 > comp3134Winter2024.ssh: Flags [.], ack 368, win 2041, options [nop,nop,TS val 1152077766 ecr 1909429201], length 0
+	0x0000:  6ec0 4ecf d675 fe00 0000 0101 0800 4500  n.N..u........E.
+	0x0010:  0034 0000 4000 3606 c219 6baf 6640 867a  .4..@.6...k.f@.z
+	0x0020:  2a41 df4f 0016 4e08 6159 2165 5b7e 8010  *A.O..N.aY!e[~..
+	0x0030:  07f9 465c 0000 0101 080a 44ab 4fc6 71cf  ..F\......D.O.q.
+	0x0040:  93d1                                     ..
+^C00:05:11.461642 IP comp3134Winter2024.52380 > 67.207.67.3.domain: 10106+ [1au] PTR? 64.102.175.107.in-addr.arpa. (56)
+	0x0000:  fe00 0000 0101 6ec0 4ecf d675 0800 4500  ......n.N..u..E.
+	0x0010:  0054 ffd6 0000 4011 4335 867a 2a41 43cf  .T....@.C5.z*AC.
+	0x0020:  4303 cc9c 0035 0040 37df 277a 0100 0001  C....5.@7.'z....
+	0x0030:  0000 0000 0001 0236 3403 3130 3203 3137  .......64.102.17
+	0x0040:  3503 3130 3707 696e 2d61 6464 7204 6172  5.107.in-addr.ar
+	0x0050:  7061 0000 0c00 0100 0029 05c0 0000 0000  pa.......)......
+	0x0060:  0000                                     ..
+
+7 packets captured
+41 packets received by filter
+0 packets dropped by kernel
