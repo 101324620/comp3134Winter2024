@@ -1,0 +1,4 @@
+Step 6)
+    root@comp3134Winter2024:~# service sshd restart
+Step 7)
+    ❯ ssh root@134.122.42.65 -p 2222
